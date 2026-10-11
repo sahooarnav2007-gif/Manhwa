@@ -1,0 +1,167 @@
+{
+  "seq_b3247b4b3a2f591b": {
+    "text_order_score": 0.0,
+    "balanced_joint_f1": 0.0,
+    "page_text_scores": {
+      "1": 0.0,
+      "2": 1.0,
+      "3": 1.0
+    },
+    "gold_tokens": 0,
+    "predicted_tokens": 14
+  },
+  "seq_720a7023d4f2ffcb": {
+    "text_order_score": 0.31186440677966104,
+    "balanced_joint_f1": 0.1587527056277057,
+    "page_text_scores": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.9355932203389831
+    },
+    "gold_tokens": 76,
+    "predicted_tokens": 59
+  },
+  "seq_91119fd54cd62066": {
+    "text_order_score": 0.3661704252568205,
+    "balanced_joint_f1": 0.15874706490091106,
+    "page_text_scores": {
+      "1": 0.8760683760683761,
+      "2": 0.16981132075471694,
+      "3": 0.052631578947368474
+    },
+    "gold_tokens": 144,
+    "predicted_tokens": 110
+  },
+  "seq_2022b8c0e1f2d3c0": {
+    "text_order_score": 0.3826039542933004,
+    "balanced_joint_f1": 0.22904911180773246,
+    "page_text_scores": {
+      "1": 0.2857142857142857,
+      "2": 0.7099236641221374,
+      "3": 0.15217391304347827
+    },
+    "gold_tokens": 100,
+    "predicted_tokens": 103
+  },
+  "seq_8f7b98bae85cd5e5": {
+    "text_order_score": 0.42087693604934984,
+    "balanced_joint_f1": 0.3160585797780537,
+    "page_text_scores": {
+      "1": 0.3793103448275862,
+      "2": 0.49142857142857144,
+      "3": 0.3918918918918919
+    },
+    "gold_tokens": 124,
+    "predicted_tokens": 86
+  },
+  "seq_71033fec4de494fc": {
+    "text_order_score": 0.65187869972274,
+    "balanced_joint_f1": 0.1382309797482208,
+    "page_text_scores": {
+      "1": 0.6828793774319066,
+      "2": 0.5029154518950437,
+      "3": 0.7698412698412699
+    },
+    "gold_tokens": 433,
+    "predicted_tokens": 392
+  },
+  "seq_cd727990f22c777b": {
+    "text_order_score": 0.6620646116174401,
+    "balanced_joint_f1": 0.17924458538626784,
+    "page_text_scores": {
+      "1": 0.5882352941176471,
+      "2": 0.6691449814126393,
+      "3": 0.728813559322034
+    },
+    "gold_tokens": 241,
+    "predicted_tokens": 203
+  },
+  "seq_a3d73a93577ffd94": {
+    "text_order_score": 0.4756302521008403,
+    "balanced_joint_f1": 0.3790849673202615,
+    "page_text_scores": {
+      "1": 1.0,
+      "2": 0.6571428571428571,
+      "3": 0.2941176470588235
+    },
+    "gold_tokens": 42,
+    "predicted_tokens": 34
+  },
+  "seq_2032620aa4e4ac7f": {
+    "text_order_score": 0.6335607261256708,
+    "balanced_joint_f1": 0.24437810945273605,
+    "page_text_scores": {
+      "1": 0.9187817258883249,
+      "2": 0.0,
+      "3": 0.9819004524886877
+    },
+    "gold_tokens": 98,
+    "predicted_tokens": 124
+  },
+  "seq_d8bc3c6ac1bb6017": {
+    "text_order_score": 0.6191051299746952,
+    "balanced_joint_f1": 0.2963636363636365,
+    "page_text_scores": {
+      "1": 0.09523809523809523,
+      "2": 0.8055555555555556,
+      "3": 0.9565217391304348
+    },
+    "gold_tokens": 56,
+    "predicted_tokens": 45
+  },
+  "seq_98544ce821c3f74b": {
+    "text_order_score": 0.7099670788010415,
+    "balanced_joint_f1": 0.21105565813686633,
+    "page_text_scores": {
+      "1": 0.8121827411167513,
+      "2": 0.6182965299684542,
+      "3": 0.699421965317919
+    },
+    "gold_tokens": 274,
+    "predicted_tokens": 242
+  },
+  "seq_ac5793f8168efdd1": {
+    "text_order_score": 0.803864924659418,
+    "balanced_joint_f1": 0.11840195616043407,
+    "page_text_scores": {
+      "1": 0.8927335640138409,
+      "2": 0.8,
+      "3": 0.7188612099644128
+    },
+    "gold_tokens": 300,
+    "predicted_tokens": 258
+  },
+  "seq_5f407d0064bb4a43": {
+    "text_order_score": 0.7631909771527745,
+    "balanced_joint_f1": 0.16561578171091465,
+    "page_text_scores": {
+      "1": 0.9503916449086162,
+      "2": 0.672514619883041,
+      "3": 0.6666666666666667
+    },
+    "gold_tokens": 141,
+    "predicted_tokens": 118
+  },
+  "seq_864aaca43a3580bb": {
+    "text_order_score": 0.8049359850054877,
+    "balanced_joint_f1": 0.12442338607702753,
+    "page_text_scores": {
+      "1": 0.8850806451612904,
+      "2": 0.7284172661870504,
+      "3": 0.8013100436681223
+    },
+    "gold_tokens": 334,
+    "predicted_tokens": 301
+  },
+  "seq_98d98dac2a89a339": {
+    "text_order_score": 0.7393334967896371,
+    "balanced_joint_f1": 0.20370524251697053,
+    "page_text_scores": {
+      "1": 0.6112266112266111,
+      "2": 0.837037037037037,
+      "3": 0.7697368421052632
+    },
+    "gold_tokens": 270,
+    "predicted_tokens": 250
+  }
+}

@@ -1,0 +1,30 @@
+tier: "T0"
+description: "Baseline: OpenCV bubble detection + baseline OCR + right-to-left sort + single speaker label"
+
+detection:
+  mode: "opencv"
+  det_conf_threshold: 0.30
+  enable_punct_candidates: false
+
+ocr:
+  primary_engine: "tesseract"
+  fallback_engine: "rapidocr"
+  enable_punct_solver: false
+
+story_classifier:
+  enabled: false
+
+reading_order:
+  direction: "rtl"
+  learned_ranker: false
+  panel_hard_constraint: false
+  merge_same_balloon: true
+
+speaker_attribution:
+  use_tail_geometry: false
+  use_visual_marks: false
+  use_discourse_cues: false
+
+speaker_clustering:
+  mode: "single"
+  default_single_speaker: "char1"

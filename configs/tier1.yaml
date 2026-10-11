@@ -1,0 +1,33 @@
+tier: "T1"
+description: "Modular text: Pretrained/hybrid bubble+text detector + stronger OCR + learned story-text filter + learned reading order"
+
+detection:
+  mode: "hybrid"
+  det_conf_threshold: 0.35
+  enable_punct_candidates: true
+
+ocr:
+  primary_engine: "ensemble"
+  fallback_engine: "rapidocr"
+  enable_punct_solver: true
+
+story_classifier:
+  enabled: true
+  model_type: "hist_gb"
+  story_prob_threshold: 0.45
+  narration_prob_threshold: 0.55
+
+reading_order:
+  direction: "rtl"
+  learned_ranker: true
+  panel_hard_constraint: true
+  merge_same_balloon: false
+
+speaker_attribution:
+  use_tail_geometry: true
+  use_visual_marks: false
+  use_discourse_cues: true
+
+speaker_clustering:
+  mode: "heuristic"
+  max_clusters: 5

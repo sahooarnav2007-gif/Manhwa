@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+dataset/
+artifacts/cache/
+artifacts/weak_labels/
+artifacts/dev_cv_predictions*.jsonl
+*.egg-info/
+dist/
+build/
+vercel_dist/
+.vercel/
+

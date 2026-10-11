@@ -1,0 +1,59 @@
+seed: 42
+pages_per_sequence: 3
+dataset_dir: dataset
+sequences_file: dataset/sequences.json
+dev_labels_file: dataset/development/labels.jsonl
+sample_submission_file: dataset/sample_submission.jsonl
+folds_file: configs/folds.json
+artifacts_dir: artifacts
+cache_dir: artifacts/cache
+models_dir: artifacts/models
+weak_labels_dir: artifacts/weak_labels
+reports_dir: reports
+num_folds: 5
+preprocess:
+  max_pixels: 1200000
+  upscale_factor: 2.0
+detection:
+  mode: hybrid
+  det_conf_threshold: 0.35
+  nms_iou_threshold: 0.45
+  min_box_area: 180
+  max_box_area_ratio: 0.35
+  enable_punct_candidates: true
+panels:
+  gutter_white_thresh: 242
+  min_gutter_ratio: 0.65
+  min_panel_area_ratio: 0.03
+characters:
+  mode: contour_haar_embed
+  det_conf_threshold: 0.3
+  embedding_dim: 64
+ocr:
+  primary_engine: ensemble
+  fallback_engine: rapidocr
+  enable_punct_solver: true
+  max_edit_distance_correction: 0.2
+story_classifier:
+  enabled: true
+  model_type: hist_gb
+  story_prob_threshold: 0.38
+  narration_prob_threshold: 0.48
+reading_order:
+  direction: rtl
+  learned_ranker: true
+  panel_hard_constraint: true
+  merge_same_balloon: false
+speaker_attribution:
+  use_tail_geometry: true
+  use_visual_marks: true
+  use_discourse_cues: true
+speaker_clustering:
+  mode: learned_agglomerative
+  distance_threshold: 0.62
+  attach_threshold: 0.52
+  max_clusters: 4
+  default_single_speaker: char1
+tier: T2
+description: 'Full speaker pipeline: Character embeddings + tail/visual/discourse
+  attribution + learned pairwise clustering tuned on balanced_joint_f1'

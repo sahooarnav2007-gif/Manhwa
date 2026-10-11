@@ -1,0 +1,36 @@
+tier: "T3"
+description: "Stretch tier: Ensembled OCR + learned contextual post-correction / visual-textual fusion"
+
+detection:
+  mode: "hybrid"
+  det_conf_threshold: 0.35
+  enable_punct_candidates: true
+
+ocr:
+  primary_engine: "ensemble"
+  fallback_engine: "rapidocr"
+  enable_punct_solver: true
+  enable_learned_correction: true
+
+story_classifier:
+  enabled: true
+  model_type: "hist_gb"
+  story_prob_threshold: 0.46
+  narration_prob_threshold: 0.52
+
+reading_order:
+  direction: "rtl"
+  learned_ranker: true
+  panel_hard_constraint: true
+  merge_same_balloon: false
+
+speaker_attribution:
+  use_tail_geometry: true
+  use_visual_marks: true
+  use_discourse_cues: true
+
+speaker_clustering:
+  mode: "learned_agglomerative"
+  distance_threshold: 0.52
+  attach_threshold: 0.42
+  max_clusters: 6

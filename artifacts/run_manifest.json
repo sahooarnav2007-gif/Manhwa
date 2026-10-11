@@ -1,0 +1,64 @@
+{
+  "hardware": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "python_version": "3.11.9",
+    "cpu_count": 4,
+    "gpu_available": false,
+    "gpu_name": null,
+    "vram_gb": 0.0,
+    "recommended_profile": "cpu_cached"
+  },
+  "packages": {
+    "numpy": "2.4.6",
+    "opencv": "5.0.0",
+    "Pillow": "12.3.0",
+    "rapidfuzz": "3.14.6",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0"
+  },
+  "local_models": {
+    "ch_PP-OCRv4_det_infer.onnx": {
+      "path": "C:\\Users\\HP\\OneDrive\\Documents\\manga-transcriber\\.venv\\Lib\\site-packages\\rapidocr_onnxruntime\\models\\ch_PP-OCRv4_det_infer.onnx",
+      "size_bytes": 4745517,
+      "sha256": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9",
+      "license": "Apache-2.0"
+    },
+    "ch_PP-OCRv4_rec_infer.onnx": {
+      "path": "C:\\Users\\HP\\OneDrive\\Documents\\manga-transcriber\\.venv\\Lib\\site-packages\\rapidocr_onnxruntime\\models\\ch_PP-OCRv4_rec_infer.onnx",
+      "size_bytes": 10857958,
+      "sha256": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+      "license": "Apache-2.0"
+    },
+    "ch_ppocr_mobile_v2.0_cls_infer.onnx": {
+      "path": "C:\\Users\\HP\\OneDrive\\Documents\\manga-transcriber\\.venv\\Lib\\site-packages\\rapidocr_onnxruntime\\models\\ch_ppocr_mobile_v2.0_cls_infer.onnx",
+      "size_bytes": 585532,
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c",
+      "license": "Apache-2.0"
+    }
+  },
+  "cache_development": {
+    "sequences": 80,
+    "pages": 240,
+    "wall_clock_sec": 64.91,
+    "sec_per_page": 0.27
+  },
+  "weak_labels": {
+    "detector_token_recall": 0.8,
+    "weak_label_box_match_rate": 0.7423,
+    "total_dev_boxes": 2348,
+    "matched_story_boxes": 1743,
+    "narration_boxes": 84,
+    "unmatched_exclude_boxes": 605,
+    "total_gold_tokens": 14558,
+    "covered_gold_tokens": 11646.59
+  },
+  "train": {
+    "wall_clock_sec": 19.8
+  },
+  "predict_test": {
+    "sequences": 15,
+    "pages": 45,
+    "wall_clock_sec": 168.5,
+    "sec_per_page": 3.744
+  }
+}

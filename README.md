@@ -3,7 +3,7 @@
 An end-to-end computer vision and machine learning pipeline that reads **three consecutive English manga pages**, extracts the **story text in reading order**, and attributes **who speaks each line** (`char1..charN` or `NARRATION`) consistently across all three pages of a sequence.
 
 - **GitHub Repository:** `https://github.com/sahooarnav2007-gif/Manhwa`
-- **Interactive Dashboard:** `https://verceldist-ecru.vercel.app`
+- **Interactive Dashboard:** https://verceldist-ecru.vercel.app
 - **Trained Weights Archive:** `https://github.com/sahooarnav2007-gif/Manhwa/raw/main/artifacts/trained_weights.zip`
 
 ---
